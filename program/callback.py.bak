@@ -114,7 +114,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /pause ايقاف التشغيل موقتآ
 » /vmute لكتم البوت
 » /vunmute لرفع الكتم عن البوت
- ⚡ ادارة سورس الاحباب @cu_56   ↔️ @a150a
+ ⚡ ادارة سورس الاحباب @cu_56
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 الـتـالـي", callback_data="cbadmin")]]
@@ -134,7 +134,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotleave لطرد حساب المساعد 
  » /ping - إظهار حالة البوت بينغ
  » /alive  إظهار معلومات البوت  (في المجموعة)
-  ⚡ ادارة سورس الاحباب @cu_56   ↔️ @a150a
+  ⚡ ادارة سورس الاحباب @cu_56
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -153,7 +153,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /restart - restart your bot
 » /leaveall - order userbot to leave from all group
 
- ⚡ ادارة سورس الاحباب @cu_56   ↔️ @a150a
+ ⚡ ادارة سورس الاحباب @cu_56
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]

@@ -89,7 +89,7 @@ async def skip(client, m: Message):
 
 
 @Client.on_message(
-    command(["ايقاف","stop", f"stop@{BOT_USERNAME}", "end", f"end@{BOT_USERNAME}", "vstop"])
+    command(["stop", f"stop@{BOT_USERNAME}", "end", f"end@{BOT_USERNAME}", "vstop"])
     & other_filters
 )
 @authorized_users_only
@@ -107,7 +107,7 @@ async def stop(client, m: Message):
 
 
 @Client.on_message(
-    command(["موقت","pause", f"pause@{BOT_USERNAME}", "vpause"]) & other_filters
+    command(["pause", f"pause@{BOT_USERNAME}", "vpause"]) & other_filters
 )
 @authorized_users_only
 async def pause(client, m: Message):
@@ -125,7 +125,7 @@ async def pause(client, m: Message):
 
 
 @Client.on_message(
-    command(["استئناف","resume", f"resume@{BOT_USERNAME}", "vresume"]) & other_filters
+    command(["resume", f"resume@{BOT_USERNAME}", "vresume"]) & other_filters
 )
 @authorized_users_only
 async def resume(client, m: Message):
@@ -143,7 +143,7 @@ async def resume(client, m: Message):
 
 
 @Client.on_message(
-    command(["اكتم","mute", f"mute@{BOT_USERNAME}", "vmute"]) & other_filters
+    command(["mute", f"mute@{BOT_USERNAME}", "vmute"]) & other_filters
 )
 @authorized_users_only
 async def mute(client, m: Message):
@@ -278,7 +278,7 @@ async def cbunmute(_, query: CallbackQuery):
 
 
 @Client.on_message(
-    command(["الصوت","volume", f"volume@{BOT_USERNAME}", "vol"]) & other_filters
+    command(["volume", f"volume@{BOT_USERNAME}", "vol"]) & other_filters
 )
 @authorized_users_only
 async def change_volume(client, m: Message):
