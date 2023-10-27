@@ -8,7 +8,7 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/@a150a",
+    "website": "https://t.me/@H180H",
     "repository": "https://github.com/mostafaaziza/alazizy",
     "success_url": "https://t.me/hama_refaat",
     "env": {
@@ -52,7 +52,7 @@
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "@a150a"
+            "value": "@H180H"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
