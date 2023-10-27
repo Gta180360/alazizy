@@ -40,12 +40,12 @@ async def cbstart(_, query: CallbackQuery):
                         "• جروب الدعم •", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "ميططرون 😁", url=f"https://t.me/a150a"
+                        "ميططرون 😁", url=f"https://t.me/H180H"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "مهند ⁽💕🐾", url="https://t.me/cu_56"
+                        "مهند💕🐾", url="https://t.me/cu_56"
                     )
                 ],
             ]
@@ -69,7 +69,7 @@ async def cbguides(_, query: CallbackQuery):
 
  💡 إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا منن خلال قروب الدعم الخاصة بي هنا ↤ @{GROUP_SUPPORT}
 
- ⚡ ادارة سورس الاحباب @a150a
+ ⚡ ادارة سورس الاحباب "@H180H", "@cu_56"
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -114,7 +114,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /pause ايقاف التشغيل موقتآ
 » /vmute لكتم البوت
 » /vunmute لرفع الكتم عن البوت
- ⚡ ادارة سورس الاحباب @cu_56   ↔️ @a150a
+ ⚡ ادارة سورس الاحباب @cu_56   ↔️ @H180H
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 الـتـالـي", callback_data="cbadmin")]]
@@ -134,7 +134,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotleave لطرد حساب المساعد 
  » /ping - إظهار حالة البوت بينغ
  » /alive  إظهار معلومات البوت  (في المجموعة)
-  ⚡ ادارة سورس الاحباب @cu_56   ↔️ @a150a
+  ⚡ ادارة سورس الاحباب @cu_56   ↔️ @H180H
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -153,7 +153,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /restart - restart your bot
 » /leaveall - order userbot to leave from all group
 
- ⚡ ادارة سورس الاحباب @cu_56   ↔️ @a150a
+ ⚡ ادارة سورس الاحباب @cu_56   ↔️ @H180H
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
